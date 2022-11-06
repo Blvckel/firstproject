@@ -50,7 +50,7 @@ body {
 .container {
   display: flex;
   max-width: 1440px;
-  margin-top: 32px;
+  margin-top: 0px;
   position: absolute;
 }
 
@@ -58,7 +58,7 @@ body {
   width: 1104px;
   height: 848px;
   margin-top: 97px;
-  margin-left: 248px;
+  margin-left: 50px;
 
   display: flex;
   flex-wrap: wrap;
@@ -131,4 +131,17 @@ body {
   line-height: 21px;
 
   color: #59606d;
+}
+
+.catalog-elements li {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #59606d;
+  list-style-type: none;
+}
+
+.catalog-elements ul {
+  padding: 0;
 }
