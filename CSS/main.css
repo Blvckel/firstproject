@@ -57,8 +57,8 @@ body {
 .cards-wrapper {
   width: 1104px;
   height: 848px;
-  margin-top: 97px;
-  margin-left: 248px;
+  margin-top: 65px;
+  margin-left: 49px;
 
   display: flex;
   flex-wrap: wrap;
@@ -123,12 +123,17 @@ body {
   color: #1f1f1f;
 }
 
-.catalog-elements p {
+.catalog-elements ul {
+  padding: 0px;
+}
+
+.catalog-elements li {
   margin: 0;
   margin-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
+  list-style-type: none;
 
   color: #59606d;
 }
